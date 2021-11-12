@@ -9,15 +9,11 @@ html {
 
 body {
 	/*background-color: #fff;*/
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 	/*font-family: sans-serif;*/
 	color: #000;
 	font-size: 95%;
 	font-weight: normal;
-}
-
-.example {
-	max-width: 90%;
 }
 
 .container {
