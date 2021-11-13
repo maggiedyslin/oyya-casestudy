@@ -75,7 +75,7 @@ nav {
 	color: #000;
 	display: inline-block;
 	margin: 5px 30px;
-	padding-right: 10px;
+	/* padding-right: 10px; */
 	text-decoration: none;
 }
 
@@ -136,6 +136,42 @@ h2 {
 h3 {
 	font-family: var(--font-sanserif);
 	font-size: 16px;
+	line-height: 22px;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+h3 .footer-title {
+	font-weight: normal;
+}
+
+/* FOOTER */
+
+footer {
+	padding-bottom: 65px;
+}
+
+.footer_social {
+	/* border: 1px solid orange; */
+	z-index: 1;
+	background: url(../components/img/lines.jpeg) repeat-x center center;
+}
+
+/* .footer_icons {
+	z-index: 2;
+	background: var(--white);
+} */
+
+.footer_text {
+	color: var(--grey);
+	font-size: 12px;
+}
+
+.footer_text a {
+	color: var(--grey);
+	text-decoration: none;
+}
+
+.footer_text a:hover {
+	color: var(--black);
 }
