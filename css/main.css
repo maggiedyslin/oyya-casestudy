@@ -1,6 +1,7 @@
 :root {
 	--font-sans-serif: 'Open Sans', sans-serif;
-	--font-sanserif: 'Oswald Regular', sans-serif;
+	--font-sanserif: 'Oswald', sans-serif;
+	--font-serif: 'clarendon-urw', serif;
 
 	--black: #000;
 	--light-black: #151515;
@@ -21,12 +22,15 @@
 }
 
 body {
-	/*background-color: #fff;*/
-	/* border: 1px solid purple; */
-	/*font-family: sans-serif;*/
+	margin: 0 auto;
+	color: var(--black);
+	display: block;
+	font-size: 14px;
+	line-height: 150%;
 	color: #000;
 	font-family: var(--font-sans-serif);
-	/* font-size: 95%; */
+	text-align: center;
+	font-weight: 400;
 }
 
 .container {
@@ -35,17 +39,7 @@ body {
 	align-items: center;
 }
 
-/* header img {
-	display: block;
-	max-width: 55%;
-	float: right;
-} */
-
-.container img {
-	display: block;
-	max-width: 55%;
-	/* float: right; */
-}
+/* NAVIGATION */
 
 nav {
 	font-family: var(--font-sanserif);
@@ -54,6 +48,7 @@ nav {
 	padding: 20px 0;
 	max-width: 1100px;
 	margin: 0 auto;
+	letter-spacing: 1px;
 }
 
 .nav-list {
@@ -64,19 +59,68 @@ nav {
 }
 
 .nav-list a {
-	font-size: 15px;
 	color: #000;
 	display: inline-block;
-	margin: 5px 25px;
+	margin: 5px 30px;
 	text-decoration: none;
 }
 
 .nav-list a:hover {
-	border-bottom: 3px solid black;
-	padding-bottom: 5px;
+	border-bottom: 2px solid black;
+	padding-bottom: 3px;
 }
 
 .underline a {
-	border-bottom: 3px solid black;
-	padding: 0 0 5px;
+	border-bottom: 2px solid black;
+	padding: 0 0 3px;
+}
+
+/* iMG */
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* header img {
+	display: block;
+	max-width: 55%;
+	float: right;
+} */
+
+.container img {
+	display: block;
+	max-width: 45%;
+	/* float: right; */
+}
+
+/* .component img {
+	max-width: initial;
+} */
+
+/* .component__img {
+	overflow-x: auto;
+	border: 1px solid blue;
+} */
+
+/* HEADINGS */
+
+h1 {
+	font-family: var(--font-serif);
+	font-size: 50px;
+	text-transform: lowercase;
+	text-align: center;
+}
+
+h2 {
+	font-family: var(--font-sans-serif);
+	font-size: 18px;
+	text-align: center;
+}
+
+h3 {
+	font-family: var(--font-sanserif);
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
 }
