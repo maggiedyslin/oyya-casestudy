@@ -89,7 +89,27 @@ nav {
 	padding: 0 0 3px;
 }
 
-/* iMG */
+/* OTHER LINKS */
+
+.img-main a {
+	font-family: var(--font-serif);
+	font-size: 75px;
+	color: var(--black);
+	/* padding: 20px 0; */
+	line-height: 200px;
+	border-radius: 50%;
+	background-color: var(--white);
+	display: inline-block;
+	text-decoration: none;
+	width: 250px;
+	height: 250px;
+}
+
+.link {
+	border: 5px solid orange;
+}
+
+/* IMG */
 
 img {
 	max-width: 100%;
@@ -106,6 +126,16 @@ img {
 	display: block;
 	max-width: 45%;
 	/* float: right; */
+}
+
+.img-main {
+	display: block;
+	border-radius: 20px;
+	background-image: url("../images/oyya-homepage.jpeg");
+	background-repeat: no-repeat;
+	width: 1180px;
+	height: 410px;
+	margin: 0 auto;
 }
 
 /* .component img {
