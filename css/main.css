@@ -105,6 +105,47 @@ nav {
 	border: 5px solid orange;
 }
 
+.flex-container a {
+	font-family: var(--font-san-serif);
+	color: var(--black);
+	border-bottom: 1px solid var(--grey);
+	text-decoration: none;
+}
+
+.flex-container a:hover {
+		border-bottom: 1px solid var(--black);
+}
+
+.button a {
+	position: relative;
+	top: 325px;
+	background-color: var(--white);
+	text-decoration: none;
+	font-family: var(--font-sans-serif); /* open sans */
+	font-weight: bold;
+	color: var(--black);
+	text-transform: uppercase;
+	border: 0;
+	font-size: 16px;
+	padding: 8px 68px;
+	border-radius: 40px;
+}
+
+.button2 a {
+	border: 0;
+	position: relative;
+	top: 38px;
+	background-color: var(--white);
+	text-decoration: none;
+	font-family: var(--font-sans-serif); /* open sans */
+	font-weight: bold;
+	color: var(--black);
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 8px 68px;
+	border-radius: 40px;
+}
+
 /* IMG */
 
 img {
@@ -146,17 +187,15 @@ img {
 /* POST */
 
 .flex-container {
+	/* border: 1px solid green; */
 	display: flex;
-	border: 1px solid green;
 	max-width: 1200px;
 	margin: auto;
 	padding: 0 20px;
 }
 
 .page-list {
-	/* max-width: 1200px; */
 	margin: 0 auto;
-	background-color: orange;
 }
 
 /* .post > * {
@@ -168,7 +207,6 @@ img {
 	width: 400px;
 	height: 400px;
 	border-radius: 8%;
-	border: 1px solid black;
 	margin: 0 10px;
 	background-image: url("../images/ice-cream-link.jpeg");
 	background-repeat: no-repeat;
@@ -179,7 +217,6 @@ img {
 	width: 400px;
 	height: 400px;
 	border-radius: 8%;
-	border: 1px solid black;
 	margin: 0 10px;
 	background-image: url("../images/froyo-link.jpeg");
 	background-repeat: no-repeat;
@@ -190,7 +227,6 @@ img {
 	width: 400px;
 	height: 400px;
 	border-radius: 8%;
-	border: 1px solid black;
 	margin: 0 10px;
 	background-image: url("../images/waffles-link.jpeg");
 	background-repeat: no-repeat;
@@ -201,7 +237,6 @@ img {
 	width: 400px;
 	height: 400px;
 	border-radius: 8%;
-	border: 1px solid black;
 	margin: 20px 10px 0;
 	background-image: url("../images/waffle-truck-link.jpeg");
 	background-repeat: no-repeat;
@@ -209,39 +244,27 @@ img {
 }
 
 .post5 {
-	width: 400px;
-	height: 400px;
+	margin: 0 auto;
+	width: 340px;
+	height: 355px;
 	border-radius: 8%;
-	border: 1px solid black;
 	margin: 20px 10px 0;
-	background-image: url("../images/froyo-link.jpeg");
+	padding: 20px 20px;
+	background-image: url("../images/woodboard-background.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	line-height: 16px;;
+	font-size: 14px;
 }
 
 .post6 {
 	width: 400px;
 	height: 400px;
 	border-radius: 8%;
-	border: 1px solid black;
 	margin: 20px 10px 0;
 	background-image: url("../images/ice-cream-truck-link.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-.page-list article a {
-	position: relative;
-	top: 325px;
-	background-color: var(--white);
-	text-decoration: none;
-	font-family: var(--font-sans-serif); /* open sans */
-	font-weight: bold;
-	color: var(--black);
-	text-transform: uppercase;
-	font-size: 16px;
-	padding: 8px 68px;
-	border-radius: 40px;
 }
 
 /* HEADINGS */
@@ -260,6 +283,14 @@ h2 {
 	text-align: center;
 }
 
+.post5 h2 {
+	font-family: var(--font-sanserif);
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 h3 {
 	font-family: var(--font-sanserif);
 	font-size: 16px;
@@ -270,6 +301,7 @@ h3 {
 
 h3 .footer-title {
 	font-weight: normal;
+	line-height: 0;
 }
 
 /* FOOTER */
@@ -280,7 +312,6 @@ footer {
 
 .footer_social {
 	/* border: 1px solid orange; */
-	z-index: 1;
 	background: url(../components/img/lines.jpeg) repeat-x center center;
 }
 
