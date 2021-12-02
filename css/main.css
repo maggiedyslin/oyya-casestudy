@@ -169,6 +169,22 @@ nav {
 	background-color: var(--white);
 }
 
+.button3 a {
+	position: relative;
+	top: 15px;
+	background-color: var(--white);
+	text-decoration: none;
+	font-family: var(--font-sans-serif); /* open sans */
+	font-weight: bold;
+	color: var(--black);
+	text-transform: uppercase;
+	border: 0;
+	font-size: 16px;
+	padding: 8px 68px;
+	border-radius: 40px;
+	transition: all .2s ease-in-out;
+}
+
 /* IMG */
 
 img {
@@ -218,7 +234,7 @@ img {
 }
 
 .page-list {
-	margin: 0 auto;
+	margin-top: 20px;
 }
 
 /* .post > * {
