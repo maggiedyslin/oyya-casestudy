@@ -124,23 +124,36 @@ nav {
 		border-bottom: 1px solid var(--black);
 }
 
+/* BUTTONS */
+
 .button a {
 	position: relative;
 	top: 325px;
-	background-color: var(--white);
-	text-decoration: none;
+	display: block;
+	margin: 0 auto;
+	padding: 8px 25px;
+	border: 0;
+	width: 100%;
+	max-width: 175px;
+	border-radius: 40px;
+	font-size: 16px;
 	font-family: var(--font-sans-serif); /* open sans */
 	font-weight: bold;
-	color: var(--black);
 	text-transform: uppercase;
-	border: 0;
-	font-size: 16px;
-	padding: 8px 68px;
-	border-radius: 40px;
+	text-decoration: none;
 	transition: all .2s ease-in-out;
 }
 
 .button a:hover {
+	border: 0;
+}
+
+.button1 a {
+	background-color: var(--white);
+	color: var(--black);
+}
+
+.button1 a:hover {
 	border: 0;
 	color: var(--white);
 	background-color: var(--black);
@@ -149,39 +162,30 @@ nav {
 }
 
 .button2 a {
-	border: 0;
-	position: relative;
-	top: 325px;
-	background-color: var(--white);
-	text-decoration: none;
-	font-family: var(--font-sans-serif); /* open sans */
-	font-weight: bold;
-	color: var(--black);
-	text-transform: uppercase;
-	font-size: 16px;
-	padding: 8px 68px;
-	border-radius: 40px;
+	background-color: var(--black);
+	color: var(--white);
+	transition: all .2s ease-in-out;
 }
 
 .button2 a:hover {
-	border: 0;
-	color: var(--black);
 	background-color: var(--white);
+	color: var(--black);
+	transition: all .2s ease-in-out;
+	top: 315px;
 }
 
 .button3 a {
-	position: relative;
-	top: 15px;
-	background-color: var(--white);
-	text-decoration: none;
-	font-family: var(--font-sans-serif); /* open sans */
-	font-weight: bold;
+	top: 25px;
+	padding: 10px 25px;
 	color: var(--black);
-	text-transform: uppercase;
-	border: 0;
-	font-size: 16px;
-	padding: 8px 68px;
-	border-radius: 40px;
+	background-color: var(--white);
+	transition: all .2s ease-in-out;
+}
+
+.button3 a:hover {
+	top: 20px;
+	color: var(--white);
+	background-color: var(--black);
 	transition: all .2s ease-in-out;
 }
 
@@ -225,9 +229,9 @@ img {
 
 /* POST */
 
-/* .page-list {
+.page-list {
 	margin-top: 20px;
-} */
+}
 
 .flex-container {
 	/* border: 1px solid green; */
@@ -272,7 +276,8 @@ img {
 	background-image: url("../images/woodboard-background.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* padding: 20px 20px; */
+	box-sizing: border-box;
+	padding: 25px 30px;
 	line-height: 16px;
 	font-size: 14px;
 }
