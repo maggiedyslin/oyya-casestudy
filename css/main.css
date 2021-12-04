@@ -225,6 +225,10 @@ img {
 
 /* POST */
 
+/* .page-list {
+	margin-top: 20px;
+} */
+
 .flex-container {
 	/* border: 1px solid green; */
 	display: flex;
@@ -233,74 +237,47 @@ img {
 	padding: 0 20px;
 }
 
-.page-list {
-	margin-top: 20px;
-}
-
-/* .post > * {
-	flex: 1;
-	padding-right: 16px;
-} */
-
-.post1 {
+.post {
 	width: 400px;
 	height: 400px;
 	border-radius: 8%;
-	margin: 0 10px;
+	margin: 10px 10px;
+}
+
+.post1 {
 	background-image: url("../images/ice-cream-link.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .post2 {
-	width: 400px;
-	height: 400px;
-	border-radius: 8%;
-	margin: 0 10px;
 	background-image: url("../images/froyo-link.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .post3 {
-	width: 400px;
-	height: 400px;
-	border-radius: 8%;
-	margin: 0 10px;
 	background-image: url("../images/waffles-link.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .post4 {
-	width: 400px;
-	height: 400px;
-	border-radius: 8%;
-	margin: 20px 10px 0;
 	background-image: url("../images/waffle-truck-link.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .post5 {
-	margin: 0 auto;
-	width: 340px;
-	height: 355px;
-	border-radius: 8%;
-	margin: 20px 10px 0;
-	padding: 20px 20px;
 	background-image: url("../images/woodboard-background.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	line-height: 16px;;
+	/* padding: 20px 20px; */
+	line-height: 16px;
 	font-size: 14px;
 }
 
 .post6 {
-	width: 400px;
-	height: 400px;
-	border-radius: 8%;
-	margin: 20px 10px 0;
 	background-image: url("../images/ice-cream-truck-link.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
