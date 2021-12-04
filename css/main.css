@@ -91,7 +91,20 @@ nav {
 	padding: 0 0 3px;
 }
 
-/* OTHER LINKS */
+/* LINKS */
+
+a {
+	font-family: var(--font-san-serif);
+	color: var(--black);
+	padding-bottom: 2px;
+	border-bottom: 1px solid var(--grey);
+	text-decoration: none;
+	transition: all .2s ease-in-out;
+}
+
+a:hover {
+		border-bottom: 1px solid var(--black);
+}
 
 .img-main a {
 	border: 1px solid purple;
@@ -111,17 +124,6 @@ nav {
 .img-text {
 	/* border: 1px solid green;
 	top: 800px; */
-}
-
-.flex-container a {
-	font-family: var(--font-san-serif);
-	color: var(--black);
-	border-bottom: 1px solid var(--grey);
-	text-decoration: none;
-}
-
-.flex-container a:hover {
-		border-bottom: 1px solid var(--black);
 }
 
 /* BUTTONS */
