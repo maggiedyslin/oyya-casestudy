@@ -98,7 +98,7 @@ body {
 /* HEADER-DIVS */
 
 sup {
-	font-size: 25%;
+	font-size: 15%;
 	vertical-align: super;
 	line-height: 0;
 }
@@ -294,8 +294,8 @@ img {
 /* HEADINGS */
 
 h1 {
-	font-family: var(--font-serif);
-	font-size: 50px;
+	font-family: var(--font-serif); /* clarendon */
+	font-size: 80px;
 	text-transform: lowercase;
 	text-align: center;
 }
@@ -335,9 +335,14 @@ h4 {
 /* FOOTER */
 
 footer {
-	padding: 40px 0 65px;
+	padding: 40px 0 50px;
 	margin: 0 auto;
 	width: 1200px;
+}
+
+footer img {
+	margin: 0 auto;
+	padding: 0;
 }
 
 .footer_social {
@@ -384,7 +389,7 @@ i.fa-facebook-f:hover {
 }
 
 .footer_text {
-	padding-top: 15px;
+	padding-top: 10px;
 	color: var(--grey);
 	font-size: 12px;
 }
