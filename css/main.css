@@ -31,31 +31,53 @@ body {
 
 /* NAVIGATION */
 
-.nav-list {
+nav ul {
 	max-width: 1140px;
-	text-transform: uppercase;
+	box-sizing: border-box;
+	height: 75px;
+	display: flex;
 	align-items: center;
 	list-style: none;
-	display: flex;
-	margin: 10px auto;
-	padding-bottom: 5px;
+	margin: 5px 150px;
+	/* padding: 0 5px;
+	border: 0; */
 }
 
-.nav-list a {
-	font-family: 'Oswald', sans-serif; /* oswald */
+nav ul a {
+	position: relative;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 0 25px;
+	text-transform: uppercase;
+	align-items: center;
+	color: var(--black);
 	font-size: 18px;
 	border: 0;
-	letter-spacing: 1px;
-	list-style-type: none;
-	margin: 10px 35px;
-	padding-bottom: 3px;
-	transition: all .2s ease-in-out;
 }
 
-.nav-list a:hover {
-	padding-bottom: 3px;
-	border-bottom: 3px solid black;
+nav ul a:after {
+	content: "";
+	position: absolute;
+	background-color: var(--black);
+	height: 3px;
+	width: 0;
+	left: 0;
+	bottom: -5px;
+	transition: 0.2s;
+}
+
+nav ul a:hover {
+	border: 0;
+}
+
+nav ul a:hover:after {
+	width: 100%;
+}
+
+nav .item a:hover:after {
+	width: 0;
 }
 
 .underline a {
@@ -65,7 +87,7 @@ body {
 
 .item {
 	position: relative;
-	left: 58px;
+	left: 140px;
 }
 
 .item a {
@@ -73,7 +95,7 @@ body {
 	align-items: center;
 	height: 25px;
 	padding: 1px;
-	font-family: 'Clarendon-URW', serif; /* clarendon */
+	font-family: 'Clarendon-URW', serif;
 	font-weight: 300;
 	color: var(--white);
 	font-size: 12px;
