@@ -38,9 +38,7 @@ nav ul {
 	display: flex;
 	align-items: center;
 	list-style: none;
-	margin: 5px 150px;
-	/* padding: 0 5px;
-	border: 0; */
+	margin: 5px 200px;
 }
 
 nav ul a {
@@ -87,7 +85,7 @@ nav .item a:hover:after {
 
 .item {
 	position: relative;
-	left: 140px;
+	left: 150px;
 }
 
 .item a {
