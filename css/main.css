@@ -95,17 +95,6 @@ body {
 	color: var(--black);
 }
 
-/* .nav-list {
-	display: grid;
-	font-family: var(--font-sanserif);
-	text-transform: uppercase;
-	font-size: 18px;
-	padding: 20px 0;
-	max-width: 1200px;
-	margin: 10px auto;
-	letter-spacing: 1px;
-} */
-
 /* HEADER-DIVS */
 
 sup {
@@ -346,7 +335,7 @@ h4 {
 /* FOOTER */
 
 footer {
-	padding-bottom: 65px;
+	padding: 40px 0 65px;
 	margin: 0 auto;
 	width: 1200px;
 }
@@ -358,11 +347,40 @@ footer {
 
 .footer_icons {
 	position: relative;
-	top: -35px;
-	width: 200px;
-	/* height: 75px; */
+	top: -45px;
+	width: 140px;
 	margin: 0 auto;
 	background: var(--white);
+}
+
+i.fa-instagram,
+i.fa-facebook-f {
+    color: var(--white);
+		font-size: 20px;
+		padding-top: 7px;
+}
+
+i.fa-instagram:hover,
+i.fa-facebook-f:hover {
+	color: var(--black);
+}
+
+.footer_icons a {
+	width: 35px;
+	height: 35px;
+	padding: 3px;
+	margin: 0 2px;
+	display: inline-block;
+	text-align: center;
+	background-color: var(--black);
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
+.footer_icons a:hover {
+	color: var(--black);
+	background-color: var(--white);
+	border: 2px solid black;
 }
 
 .footer_text {
@@ -374,6 +392,7 @@ footer {
 .footer_text a {
 	color: var(--grey);
 	text-decoration: none;
+	border: 0;
 }
 
 .footer_text a:hover {
