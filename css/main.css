@@ -50,6 +50,7 @@ body {
 	list-style-type: none;
 	margin: 10px 35px;
 	padding-bottom: 3px;
+	transition: all .2s ease-in-out;
 }
 
 .nav-list a:hover {
