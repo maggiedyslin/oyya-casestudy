@@ -18,6 +18,8 @@
 }
 
 body {
+	margin: 0 auto;
+	max-width: 1300px;
 	color: var(--black);
 	display: block;
 	font-family: 'Open Sans', sans-serif;
@@ -25,6 +27,20 @@ body {
 	font-weight: 400;
 	font-size: 13px;
 	line-height: 150%;
+}
+
+sidebar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 15%;
+	border: 1px solid orange;
+	background-color: var(--lighter-grey);
+	color: var(--white);
+}
+
+sidebar ul li {
+		list-style-type: none;
 }
 
 /* NAVIGATION */
