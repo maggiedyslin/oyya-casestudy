@@ -41,7 +41,7 @@
           <div class="component__code">
             <div class="container-nav">
 
-              <nav>
+              <nav id="navi">
 
                 <ul>
                   <li class="underline"><a href="#!">Home</a></li>
@@ -59,7 +59,7 @@
           	</div>
           </div>
 
-          <div class="header-container">
+          <div class="header-container" id="head-image">
 
               &nbsp;
 
@@ -80,7 +80,7 @@
       <h2>Header</h2>
 
         <ul>
-          <li><a href="#navigation">Navigation</a></li>
+          <li><a href="#navi">Navigation</a></li>
           <li><a href="#head-image">Header Image</a></li>
         </ul>
 
@@ -111,6 +111,7 @@
           <li><a href="#foot-social">Footer Social</a></li>
           <li><a href="#oyya">Footer Text</a></li>
           <li><a href="foot-image">Footer Image</a></li>
+          <li><a href="foot-copyright">Footer Copyright</a></li>
         </ul>
 
     </sidebar>
@@ -135,11 +136,11 @@
 
           <div class="component__code">
 
-            <h1>Frozen Yogurt</h1>
+            <h1 id="head1">Frozen Yogurt</h1>
 
-            <h2>Healthy, fresh and delicious in taste</h2>
+            <h2 id="head2">Healthy, fresh and delicious in taste</h2>
 
-            <h3>April 4</h3>
+            <h3 id="head3">April 4</h3>
 
           </div>
 
@@ -161,7 +162,7 @@
 
             <div class="container">
 
-              <p>The oyya frozen yogurt is pure indulgence. The frozen yogurt is
+              <p id="body">The oyya frozen yogurt is pure indulgence. The frozen yogurt is
                 prepared on site at the time of your order with low-fat yogurt and
                 milk. It is a refreshing delicacy with a delicious taste and
                 creaminess. Oyya frozen yogurt is low in fat, with less sugar
@@ -178,7 +179,7 @@
         </div>
       </article>
 
-      <section class="page-list">
+      <section class="page-list" id="post">
 
         <img srcset="./img/section.png 2x"
              src="./img/section.png" alt="Section">
@@ -276,18 +277,18 @@
 
             </div>
 
-            <div class="footer_icons">
+            <div class="footer_icons" id="foot-social">
 
               <p><a href="#!"><i class="fab fa-facebook-f"></i></a>
                  <a href="#!"><i class="fab fa-instagram"></i></a></p>
 
             </div>
 
-            <h3>Oyya</h3>
+            <h3 class="foot-title-text">Oyya</h3>
             <h4>Bruges and Ghent</h4>
 
-            <p><a href="#!"><img src="../images/infoatoyya.png"
-                  alt="info@oyya.be"></a></p>
+            <a href="#!"><img src="../images/infoatoyya.png"
+                  alt="info@oyya.be" id="foot-image"></a>
 
             <div class="arrow-reveal">
 
@@ -297,7 +298,9 @@
 
             <div class="footer_text">
 
-              <p>&copy; 2021 Oyya | <a href="#!">Site by Skinn</a></p>
+              <p id="foot-copyright">
+                &copy; 2021 Oyya | <a href="#!">Site by Skinn</a>
+              </p>
 
             </div>
           </footer>

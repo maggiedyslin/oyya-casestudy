@@ -34,13 +34,13 @@ sidebar {
 	left: 0;
 	top: 0;
 	width: 15%;
-	border: 1px solid orange;
 	background-color: var(--lighter-grey);
 	color: var(--white);
 }
 
 sidebar ul li {
-		list-style-type: none;
+	text-align: left;
+	list-style-type: none;
 }
 
 /* NAVIGATION */
