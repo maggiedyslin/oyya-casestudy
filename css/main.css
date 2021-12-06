@@ -445,13 +445,13 @@ i.fa-facebook-f:hover {
 }
 
 footer img {
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	margin: 0 auto;
 	padding: 0;
 	z-index: -1;
 }
 
-.arrow-reveal {
+/* .arrow-reveal {
 	position: relative;
 	top: -65px;
 	right: 70px;
@@ -466,7 +466,7 @@ footer img {
 	background-repeat: repeat-x;
 	animation: reveal 2s ease-in-out;
 	z-index: 1;
-}
+} */
 
 .footer_text {
 	padding-top: 10px;
