@@ -31,11 +31,10 @@ body {
 
 sidebar {
 	position: absolute;
-	left: 0;
+	left: -30px;
 	top: 0;
 	width: 15%;
-	background-color: var(--lighter-grey);
-	color: var(--white);
+	color: var(--black);
 }
 
 sidebar ul li {
